@@ -2,7 +2,7 @@
 
 Name:           mingw-glib2
 Version:        2.50.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        MinGW Windows GLib2 library
 
 License:        LGPLv2+
@@ -279,6 +279,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 2.50.1-2
+- Rebuild with GCC 5.4.0
+
 * Wed Oct 12 2016 Kalev Lember <klember@redhat.com> - 2.50.1-1
 - Update to 2.50.1
 
